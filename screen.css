@@ -240,10 +240,10 @@ background-color: gray;
 font-size: 100%;
 }
 
-p {
+footer {
 	
 
-	font: 100px, italic, bold, sans-serif;
+	font: 50px, italic, bold, sans-serif;
     color: white;
 	text-align: center;
 	border: 1px solid black;
