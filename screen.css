@@ -229,6 +229,10 @@ div {
 	color: white;
 background-color: gray;
 }
+input {
+	width=100%;
+}
+
 	
 
 
