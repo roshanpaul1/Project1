@@ -202,6 +202,20 @@ label {
   display: block;
 }
 
+//layout style
 form {
 	background-color: gray;
+	font: 10px, italic, bold, sans-serif;
+	text-align: center;
 }
+
+h1 
+{
+	font: 25px, italic, bold, sans-serif;
+    
+	text-align: center;
+	
+}
+
+
+
