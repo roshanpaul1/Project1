@@ -220,7 +220,7 @@ form {
 
 h1 
 {
-	font: 100px, italic, bold, sans-serif;
+	font: 200px, italic, bold, sans-serif;
     color: white;
 	text-align: center;
 	border: 1px solid black;
@@ -236,6 +236,7 @@ h1
 label {
 	text-align: center;
 	color: white;
+	font-size: 100%;
 	
 }
 
@@ -260,7 +261,9 @@ footer {
 padding-left: 80px;
 }
 
-
+input {
+	font-size: 75%;
+}
 	
 
 
