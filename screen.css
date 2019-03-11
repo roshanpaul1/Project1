@@ -206,6 +206,7 @@ label {
 form {
 	background-color: gray;
 	font: 10px, italic, bold, sans-serif;
+	border: 1px solid powderblue;
 	text-align: center;
 	color: white;
 	
@@ -216,21 +217,24 @@ h1
 	font: 25px, italic, bold, sans-serif;
     color: white;
 	text-align: center;
+	font-size: 200%;
 	
 }
 
 label {
 	text-align: center;
 	color: white;
+	font-size: 200%;
 }
 
 div {
 	text-align: center;
 	color: white;
 background-color: gray;
+font-size: 200%;
 }
 input {
-	width=100%;
+	width=50%;
 }
 
 	
