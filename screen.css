@@ -206,16 +206,14 @@ label {
 form {
 	background-color: gray;
 	font: 10px, italic, bold, sans-serif;
-	
 	text-align: center;
 	color: white;
 	padding-top: 50px;
-  padding-right: 30px;
-  padding-bottom: 50px;
-  padding-left: 80px;
-
- width:100px;
- height: 500px;
+	padding-right: 30px;
+	padding-bottom: 50px;
+	padding-left: 80px;
+	width:100px;
+	height: 500px;
 	
 }
 
