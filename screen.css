@@ -207,15 +207,23 @@ form {
 	background-color: gray;
 	font: 10px, italic, bold, sans-serif;
 	text-align: center;
+	color: white;
+	
 }
 
 h1 
 {
 	font: 25px, italic, bold, sans-serif;
-    
+    color: white;
 	text-align: center;
 	
 }
+
+label {
+	text-align: center;
+	color: white;
+}
+	
 
 
 
