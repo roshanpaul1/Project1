@@ -201,3 +201,7 @@ html {
 label {
   display: block;
 }
+
+form {
+	background-color: gray;
+}
