@@ -214,13 +214,14 @@ form {
   padding-bottom: 50px;
   padding-left: 80px;
 
- width:500px;
+ width:100px;
+ height: 500px;
 	
 }
 
 h1 
 {
-	font: 200px, italic, bold, sans-serif;
+	font: 100px, italic, bold, sans-serif;
     color: white;
 	text-align: center;
 	border: 1px solid black;
@@ -229,6 +230,8 @@ h1
   padding-right: 30px;
   padding-bottom: 50px;
   padding-left: 80px;
+  
+
 
 	
 }
@@ -263,6 +266,9 @@ padding-left: 80px;
 
 input {
 	font-size: 75%;
+}
+body {
+	background-image: url("$5.jpg");
 }
 	
 
