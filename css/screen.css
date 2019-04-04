@@ -215,6 +215,7 @@ form {
 	width:100px;
 	height: 500px;
 	
+	
 }
 
 h1 
@@ -268,6 +269,31 @@ input {
 body {
 	background-image: url("$5.jpg");
 }
+
+/* ===== MODULAR STYLES ===== */
+/* === media queiries === */
+/* 400px Break Point 1: Extra Small Devices, Phones */
+@media screen and (max-width: 354px) { 
+
+    main {
+        width: 300px;
+        display: block;
+        margin:auto;
+        text-align: center;
+    }
+}
+	
+	/* 992px Break Point 3: Desktop Computers, Large screens */
+@media screen and (min-width: 996px) {
+
+    main {
+        width: 960px;
+        display: block;
+        margin:auto;
+        text-align: center;
+    }
+}
+
 	
 
 
