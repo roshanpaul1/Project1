@@ -280,6 +280,7 @@ body {
         display: block;
         margin:auto;
         text-align: center;
+		background-image: url("$5.jpg");
     }
 }
 	
@@ -291,6 +292,7 @@ body {
         display: block;
         margin:auto;
         text-align: center;
+		background-image: url("$5.jpg");
     }
 }
 
