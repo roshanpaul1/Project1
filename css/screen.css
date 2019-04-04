@@ -59,6 +59,10 @@ html [type="button"], /* 1 */
 [type="submit"] {
   -webkit-appearance: button; /* 2 */
 }
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+
 
 /**
  * Remove the inner border and padding in Firefox.
@@ -204,6 +208,7 @@ label {
 
 /*layout style*/
 form {
+	background-color: gray;
 	/*background-color: gray; */
 	font: 10px, italic, bold, sans-serif;
 	text-align: center;
@@ -224,6 +229,7 @@ h1
     color: white;
 	text-align: center;
 	border: 1px solid black;
+	background-color: gray;
   /*background-color: gray; */
   padding-top: 50px;
   padding-right: 30px;
@@ -245,6 +251,7 @@ label {
 div {
 	text-align: center;
 	color: white;
+	background-color: gray;
 /*background-color: gray; */
 font-size: 100%;
 }
@@ -256,6 +263,7 @@ footer {
     color: white;
 	text-align: center;
 	border: 1px solid black;
+	background-color: gray;
   /*background-color: gray; */
   padding-top: 50px;
   padding-right: 30px;
