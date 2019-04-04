@@ -267,7 +267,7 @@ input {
 	font-size: 75%;
 }
 body {
-	background-image: url("$5.jpg");
+	background-image: url("Media/$5");
 }
 
 /* ===== MODULAR STYLES ===== */
@@ -280,7 +280,7 @@ body {
         display: block;
         margin:auto;
         text-align: center;
-		background-image: url("Media/$5.jpg");
+		
     }
 }
 	
@@ -292,7 +292,7 @@ body {
         display: block;
         margin:auto;
         text-align: center;
-		background-image: url("Media/$5.jpg");
+		
     }
 }
 
