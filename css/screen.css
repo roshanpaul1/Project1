@@ -200,7 +200,7 @@ html {
   line-height: 1.182em; /* 26px / ~ 120% */
   padding: 1.182em; /* 26px / ~ 120% */
   text-rendering: optimizeLegibility;
-  background-image: url("media/$5.jpg");
+  /*background-image: url("media/$5.jpg");*/
 }
 
 label {
@@ -244,9 +244,9 @@ h1
 }
 
 label {
-	text-align: center;
+	text-align: left;
 	color: white;
-	font-size: 100%;
+	font-size: 75%;
 	
 }
 
@@ -277,7 +277,8 @@ input {
 	font-size: 75%;
 }
 body {
-	background-image: url("media/$5.jpg");
+	background-image: url("/media/$5.jpg");
+	/*background-color: #000000;*/
 }
 
 /* ===== MODULAR STYLES ===== */

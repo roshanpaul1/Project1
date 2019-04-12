@@ -10,7 +10,7 @@ function submit() {
          alert("form has been submitted!");
 
 }
-document.getElementById('submit').addEventListener('click', submit);
+
 
 </script>
 
@@ -18,19 +18,20 @@ document.getElementById('submit').addEventListener('click', submit);
 function validateForm() {
   var x = document.forms["myForm"]["firstname"].value;
   if (x == "") {
-    alert("First Name must be filled out");
-	var y = document.forms["myForm"]["lastname"].value;
+  alert("First Name must be filled out");}
+var y = document.forms["myForm"]["lastname"].value;
   if (y == "") {
-    alert("Last Name must be filled out");
-	var z = document.forms["myForm"]["Birthday"].value;
+  alert("Last Name must be filled out");}
+var z = document.forms["myForm"]["Birthday"].value;
   if (z == "") {
-    alert("Birthday must be filled out");
-	var w = document.forms["myForm"]["Email"].value;
+  alert("Birthday must be filled out");}
+var w = document.forms["myForm"]["Email"].value;
   if (w == "") {
-    alert("Email must be filled out");
-	
+  alert("Email must be filled out");}
+	 return false;
+	 document.getElementById('submit').addEventListener('click', submit);
    
   }
-   return false;
-}
+  
+
 </script>
