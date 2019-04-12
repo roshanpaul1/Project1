@@ -14,7 +14,7 @@
 	  <h1>Sign up to receive $5 on your BIRTHDAY!</h1>
 	</div>
 	  <fieldset>
-	  <form method="get" action="#null" autocomplete="on">
+	  <form name="myForm" method="get" onsubmit="return validateForm()" action="#null" autocomplete="on" validateForm="on">
 	<div>
 	<label>First Name</label>
 		<input type="text" id="fname" name="firstname" placeholder="Your first name..">
@@ -35,17 +35,13 @@
 	</div>
 
 
-<div>
-      <button id="submit">Submit</button>
+	<div>
+      <input type="submit" value="Submit">
+	  
   </div>
-     <script>
-     function submit() {
-              alert("form has been submitted!");
-   }
-   document.getElementById('submit').addEventListener('click', submit);
- </script>
+     
 
-      </form>
+   </form>
 </fieldset>
 </div>
 
@@ -57,6 +53,6 @@
 
   </main>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script src="js/main.js"></script>
+  <script src="javascript/main.js"></script>
   </body>
 </html>

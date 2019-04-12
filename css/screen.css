@@ -200,6 +200,7 @@ html {
   line-height: 1.182em; /* 26px / ~ 120% */
   padding: 1.182em; /* 26px / ~ 120% */
   text-rendering: optimizeLegibility;
+  background-image: url("media/$5.jpg");
 }
 
 label {
@@ -218,24 +219,25 @@ form {
 	padding-bottom: 50px;
 	padding-left: 80px;
 	width:100px;
-	height: 500px;
+	height: 300px;
 	
 	
 }
 
 h1 
 {
-	font: 100px, italic, bold, sans-serif;
+	font: italic, bold, sans-serif;
+	font-size:200%;
     color: white;
 	text-align: center;
 	border: 1px solid black;
-	background-color: gray;
+	background-color: red;
   /*background-color: gray; */
   padding-top: 50px;
   padding-right: 30px;
   padding-bottom: 50px;
   padding-left: 80px;
-  background-image: url("$5.jpg");
+  
 
 
 	
@@ -263,7 +265,7 @@ footer {
     color: white;
 	text-align: center;
 	border: 1px solid black;
-	background-color: gray;
+	background-color: red;
   /*background-color: gray; */
   padding-top: 50px;
   padding-right: 30px;
